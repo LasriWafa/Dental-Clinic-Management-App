@@ -1,0 +1,12 @@
+
+ui:
+Contains the Swing components and UI logic.
+
+Examples:
+LoginScreen.java
+Dashboard.java
+AppointmentScreen.java
+
+These classes will:
+Create the user interface using Swing.
+Use services to fetch and display data.

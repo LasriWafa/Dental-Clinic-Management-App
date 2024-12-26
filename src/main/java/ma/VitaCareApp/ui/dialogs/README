@@ -1,0 +1,6 @@
+
+dialogs :
+
+Pop-ups or modal windows for user interactions.
+
+Example: AddPatientDialog.java allows adding a new patient.

@@ -1,0 +1,6 @@
+
+screens :
+
+Different views or screens of your application.
+
+Example: AppointmentScreen.java shows appointment data and functionalities.

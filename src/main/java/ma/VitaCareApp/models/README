@@ -1,0 +1,9 @@
+
+models: Contains classes representing the core entities of your system.
+
+Examples:
+Patient.java
+
+These classes will:
+Use Lombok for @Getter, @Setter, @ToString, etc.
+Be simple POJOs (Plain Old Java Objects).

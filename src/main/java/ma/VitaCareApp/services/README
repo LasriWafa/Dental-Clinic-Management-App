@@ -1,0 +1,11 @@
+
+services:
+Contains the business logic of your application.
+
+Examples:
+PatientService.java: Handles adding, updating, or retrieving patient info using PatientDAO.
+AppointmentService.java: Manages scheduling, modifying, and canceling appointments.
+
+These classes will:
+Use DAOs to interact with the data layer.
+Contain core application logic.
