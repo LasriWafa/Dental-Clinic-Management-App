@@ -1,5 +1,4 @@
 package ma.VitaCareApp.dao;
 
-public class PatientDAO {
-
+public class ActeDao {
 }
