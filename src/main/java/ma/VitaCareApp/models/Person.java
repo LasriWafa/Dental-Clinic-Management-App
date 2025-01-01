@@ -1,10 +1,11 @@
 package ma.VitaCareApp.models;
 
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 import ma.VitaCareApp.models.enums.*;
 
 @NoArgsConstructor @AllArgsConstructor @Setter @Getter
-
+@SuperBuilder
 public class Person {
 
     private long id;
@@ -16,6 +17,6 @@ public class Person {
     private String firstName;
     private String lastName;
     private String cin;
-    private String profilePicture; // Path to the profile picture
+    private String profilePicture;
 
 }

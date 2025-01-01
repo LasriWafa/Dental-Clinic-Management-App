@@ -1,7 +1,0 @@
-
-utils:
-Contains helper classes for commonly used utilities.
-
-Examples:
-FileUtils.java: For reading/writing files.
-ValidationUtils.java: For input validation.

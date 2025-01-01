@@ -1,10 +1,9 @@
 package ma.VitaCareApp.models.enums;
 
-public enum Insurance {
+public enum Mutuelle {
 
     CNSS,
+    CNAM,
     CIMR,
-    CNOPS,
-    AUTRE
-
+    CNOPS
 }
