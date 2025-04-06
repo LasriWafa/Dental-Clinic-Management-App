@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50bdbd89-1516-4859-bcfe-6d3c92c3a2a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/myFileBase/actes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/consultations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/dossierMedical.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/facture.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/financialSituations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/interventionMedcins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/medicalHistories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/medicaments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/ordonnances.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/patients.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/prescriptionMedicaments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFileBase/rendezVous.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IFinancialSituationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/IController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IActeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/ICabinetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/ICaisseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IConsultationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IDentistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IDossierMedicalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IFactureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IFinancialSituationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IInterventionMedcinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IMedicalHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IMedicamentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IOrdonnanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IPatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IPersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IPrescriptionMedicamentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IRendezVousController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/ISercretaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IStaffController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/api/spesificAPI/IUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/ActeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/CabinetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/CaisseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/ConsultationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/DentistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/DossierMedicalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/FactureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/FinancialSituationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/InterventionMedcinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/MedicalHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/MedicamentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/OrdonnanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/PatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/PrescriptionMedicamentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/RendezVousController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/SercretaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/StaffController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/controller/implementationController/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/agendaView/AgendaView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/agendaView/Calendrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/certificatView/CertificatView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/CreateButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/CrudButtonPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/DeleteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/EditButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/RefreshButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/SearchButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/buttons/buttons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomDatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomRadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/CustomTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/DeleteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/EditButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/forms/FormDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/headers/NavBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/mainPage/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/sideMenu/FormeBtn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/sideMenu/SideMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/tables/DynamicTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/tables/TableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/tables/TableColumnView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/tables/TablePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/commun/tables/TableView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/consultationView/ConsultationView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/dashboardView/DashboardCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/dashboardView/DashboardInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/dashboardView/DashboardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/dentistView/DentistView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/dossierMedicalView/DossierMedicalView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/factureView/FactureView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/interventionMedcinView/InterventionMedcinView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/ordonnancesView/OrdonnancesView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/patientView/PatientsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/prescriptionMedicament/PrescriptionMedicamentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/profileView/ProfileView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/rendezVousView/RendezVousView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/scheduleView/ScheduleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/secretaryView/SecretaryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/presentation/view/situationFinanciereView/SituationFinancialView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/exceptions/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/ActeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/CabinetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/CaisseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/ConsultationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/DentistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/DossierMedicalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/FactureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/FinancialSituationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/InterventionMedcinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/MedicalHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/MedicamentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/OrdonnanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/PatientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/PrescriptionMedicamentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/RendezVousService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/SecretaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/StaffService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/implementationService/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/agenda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/consultation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/dossier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/intervention.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/modify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/rendez-vous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/sick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/situation-fianciere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/tooth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFileBase/dossiers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFileBase/patient.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IActeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IActeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IConsultationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IConsultationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IDossierMedicalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IDossierMedicalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IFactureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IFactureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IFinancialSituation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IInterventionMedcinDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IInterventionMedcinDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IMedicalHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IMedicalHistoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IMedicamentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IMedicamentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IOrdonnanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IOrdonnanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IPatientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IPatientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IPrescriptionMedicamentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IPrescriptionMedicamentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IRendezVousDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/api/specificAPI/IRendezVousDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/exceptions/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/exceptions/DaoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/ActeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/ActeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/ConsultationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/ConsultationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/DossierMedicalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/DossierMedicalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/FactureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/FactureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/FinancialSituation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/FinancialSituationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/InterventionMedcinDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/InterventionMedcinDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/MedicalHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/MedicalHistoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/MedicamentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/MedicamentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/OrdonnanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/OrdonnanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/PatientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/PatientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/PrescriptionMedicamentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/PrescriptionMedicamentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/RendezVousDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/dao/implementationDAO/RendezVousDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/entities/DossierPatient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/entities/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/entities/enums/Sex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Acte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Acte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Consultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Consultation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/DossierMedical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/DossierMedical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Facture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/FinancialSituation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/FinancialSituation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/InterventionMedcin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/InterventionMedcin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Medicament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Medicament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Ordonnance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Ordonnance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/PrescriptionMedicament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/PrescriptionMedicament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/RendezVous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/RendezVous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/enums/CategoryActe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/models/enums/CategoryActe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/repository/ICRUDRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/repository/api/IDossierPatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/repository/api/IPatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/repository/exceptions/DaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/repository/fileBase_Impl/DossierPatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/repository/fileBase_Impl/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/BaseInterfaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IActService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IActService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IConsultationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IConsultationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IDossierMedicalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IDossierMedicalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IFactureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IFactureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IFinancialSituationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IFinancialSituationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IInterventionMedcinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IInterventionMedcinService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IMedicalHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IMedicalHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IMedicamentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IMedicamentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IOrdonnanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IOrdonnanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IPatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IPatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IPrescriptionMedicamentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IPrescriptionMedicamentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IRendezVousService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/services/api/specificAPI/IRendezVousService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/ui/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/ui/components/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/ui/dialogs/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ma/VitaCareApp/ui/views/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/icons/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/user.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LasriWafa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LasriWafa/JavaProject&quot;,
+    &quot;accountId&quot;: &quot;e95ad502-2cdf-490b-ad32-524d9a944e71&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ru9KGj6yRCjoItrl5WNHnxqjtA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddButton.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.CrudButtonPanel.executor": "Run",
+    "Application.DeleteButton.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ma.VitaCareApp.presentation.controller.main.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lenovo/Documents/PERSONAL/EMSI 4IIR S1/JAVA/Java Project/VitaCareApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\VitaCareAppFront+Back\VitaCareAppFront+Back\VitaCareApp\src\main\resources" />
+      <recent name="C:\Users\LENOVO\Desktop\VitaCareAppFront+Back\VitaCareAppFront+Back\VitaCareApp\src\main\java\ma\VitaCareApp\presentation\view\commun" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ma.VitaCareApp.presentation.view.commun.buttons" />
+      <recent name="ma.VitaCareApp.presentation.view.dashboardView" />
+      <recent name="ma.VitaCareApp.presentation.view.commun.sideMenu" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="VitaCareApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudButtonPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.VitaCareApp.presentation.view.commun.buttons.CrudButtonPanel" />
+      <module name="VitaCareApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.VitaCareApp.presentation.view.commun.buttons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.VitaCareApp.presentation.view.commun.buttons.DeleteButton" />
+      <module name="VitaCareApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.VitaCareApp.presentation.view.commun.buttons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.VitaCareApp.presentation.main.Main" />
+      <module name="VitaCareApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.VitaCareApp.presentation.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ma.VitaCareApp.presentation.controller.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ma.VitaCareApp.presentation.controller.main.Main" />
+      <module name="VitaCareApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ma.VitaCareApp.presentation.controller.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ma.VitaCareApp.presentation.controller.main.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CrudButtonPanel" />
+        <item itemvalue="Application.DeleteButton" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50bdbd89-1516-4859-bcfe-6d3c92c3a2a2" name="Changes" comment="" />
+      <created>1737398026299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737398026299</updated>
+      <workItem from="1737410477088" duration="1619000" />
+      <workItem from="1737412225848" duration="6463000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
