@@ -1,6 +1,0 @@
-
-components :
-
-Reusable pieces of the UI like custom buttons, panels, or tables.
-
-Example: CustomButton.java extends JButton with a specific style or behavior.

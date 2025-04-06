@@ -1,4 +1,0 @@
-ID-Nom-Prenom-Email-CIN-Sexe-IdDossier
-1-Alaoui-Amine-amine@gmail.com-AW2112-MALE-1
-2-Alaoui-sarah-sarah@gmail.com-TE0384-FEMALE-3
-3-Hamid-Alae-alae@gmail.com-JR3204-MALE-5

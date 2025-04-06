@@ -1,4 +1,0 @@
-ID-Medcin-IdPatient
-1-Barada-1
-3-Barada-2
-5-Moussaoui-3

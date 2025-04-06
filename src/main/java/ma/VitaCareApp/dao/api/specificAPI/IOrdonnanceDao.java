@@ -1,4 +1,9 @@
 package ma.VitaCareApp.dao.api.specificAPI;
 
-public interface IOrdonnanceDao {
+import ma.VitaCareApp.dao.api.IDao;
+import ma.VitaCareApp.models.Ordonnance;
+
+public interface IOrdonnanceDao extends IDao<Ordonnance, Long> {
+
+
 }

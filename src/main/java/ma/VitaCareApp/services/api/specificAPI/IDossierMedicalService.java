@@ -1,4 +1,7 @@
 package ma.VitaCareApp.services.api.specificAPI;
 
-public interface IDossierMedicalService {
+import ma.VitaCareApp.models.DossierMedical;
+import ma.VitaCareApp.services.api.IService;
+
+public interface IDossierMedicalService extends IService<DossierMedical, Long> {
 }

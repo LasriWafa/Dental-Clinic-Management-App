@@ -4,19 +4,22 @@ import lombok.*;
 import lombok.experimental.SuperBuilder;
 import ma.VitaCareApp.models.enums.*;
 
-@NoArgsConstructor @AllArgsConstructor @Setter @Getter
-@SuperBuilder
+import java.time.LocalDate;
+
+@NoArgsConstructor @AllArgsConstructor @Setter @Getter @SuperBuilder
+
 public class Person {
 
-    private long id;
+    private Long id;
     private String phone;
     private String email;
     private Sex sex;
     private String address;
-    private String birthDate;
+    private LocalDate birthDate;
     private String firstName;
     private String lastName;
     private String cin;
-    private String profilePicture;
+
+//    private String profilePicture;
 
 }

@@ -1,0 +1,4 @@
+1,123456789,john@example.com,MALE,Canada,1990-05-15,Johny,Doe,AB123456,A_POSITIVE,CNSS,Engineer
+2,987654321,jane@example.com,FEMALE,456 Elm St,1985-10-20,Jane,Smith,CD654321,B_NEGATIVE,CNOPS,Doctor
+4,321984003,jennie@example.com,FEMALE,321 Nice St,2002-03-25,jennie,Ruby,JT343212,AB_POSITIVE,CNSS,Singer
+5,0766058922,wafa@gmail.com,FEMALE,Temara,2002-03-03,Wafa,Lasri,JT90034,A_POSITIVE,CNSS,None

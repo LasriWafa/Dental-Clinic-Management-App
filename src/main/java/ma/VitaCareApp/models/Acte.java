@@ -11,6 +11,6 @@ public class Acte {
     private Long idActe;
     private String libeller;
     private Double prixDeBase;
-    private List<InterventionMedcin> interventions;
+//    private List<InterventionMedcin> interventions;
     private CategoryActe categoryActe;
 }

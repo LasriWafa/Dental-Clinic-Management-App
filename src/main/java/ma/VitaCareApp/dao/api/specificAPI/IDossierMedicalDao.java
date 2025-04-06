@@ -1,4 +1,7 @@
 package ma.VitaCareApp.dao.api.specificAPI;
 
-public interface IDossierMedicalDao {
+import ma.VitaCareApp.dao.api.IDao;
+import ma.VitaCareApp.models.DossierMedical;
+
+public interface IDossierMedicalDao extends IDao<DossierMedical, Long> {
 }

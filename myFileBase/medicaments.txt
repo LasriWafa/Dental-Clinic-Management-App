@@ -1,0 +1,2 @@
+1,25.99,Paracetamol,Pain reliever,1;2
+2,25.99,Doliprane,Headache reliever,1;2

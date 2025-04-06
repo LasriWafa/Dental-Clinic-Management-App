@@ -1,0 +1,4 @@
+1,Tooth extraction ,1,5,200.0
+2,Teeth cleaning completed,2,0,100.0
+3,Tooth replacement,2,0,400.0
+4,Tooth replacement,2,0,400.0

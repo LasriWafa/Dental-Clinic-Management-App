@@ -1,4 +1,7 @@
 package ma.VitaCareApp.services.api.specificAPI;
 
-public interface IMedicalHistoryService {
+import ma.VitaCareApp.models.MedicalHistory;
+import ma.VitaCareApp.services.api.IService;
+
+public interface IMedicalHistoryService extends IService<MedicalHistory, Long> {
 }
